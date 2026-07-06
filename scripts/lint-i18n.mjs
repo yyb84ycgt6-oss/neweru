@@ -7,7 +7,7 @@
 // Exit 0 = OK, exit 1 = budget exceeded somewhere.
 //
 // Budget file: scripts/i18n-budget.json
-//   Shape: { "src/pages/Foo.jsx": 47, ... }
+//   Shape: { "src/pages/Foo.tsx": 47, ... }
 //   Each entry is the max allowed hardcoded-string count for that file.
 //   When you wrap strings in t(), lower the budget. New files default to 0.
 //

@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./src/*"]
+    },
+    "jsx": "react-jsx",
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "lib": ["esnext", "dom"],
+    "target": "esnext",
+    "skipLibCheck": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "types": ["vite/client"],
+    "noEmit": true,
+    "strict": false,
+    "noImplicitAny": false,
+    "ignoreDeprecations": "5.0"
+  },
+  "include": ["src/**/*", "vite.config.js", "eslint.config.js"],
+  "exclude": ["node_modules", "dist"]
+}

@@ -1,0 +1,2 @@
+// @ts-nocheck
+export { useLiveMarketPrices as useRealPrices, useLivePriceMap as useRealPriceMap } from '@/hooks/useLiveSync';
