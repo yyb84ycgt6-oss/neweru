@@ -9,7 +9,7 @@
     "lint": "eslint . --quiet",
     "lint:fix": "eslint . --fix",
     "lint:i18n": "node scripts/lint-i18n.mjs",
-    "typecheck": "tsc -p ./jsconfig.json",
+    "typecheck": "tsc -p ./tsconfig.json",
     "preview": "vite preview"
   },
   "dependencies": {
